@@ -40,3 +40,15 @@ ejs setup steps:
 4. create ejs in the folder views
 5. render in place of send => render karte time make sure views ke ander wali hi koi file ka naam likha jaye aur render function me .ejs mention na kiya jaye.
 
+- template engines(pug, handlebars, ejs, jade) => ye ek style of markup se convert karke hame html dete hain => ejs is very very similar to html 
+
+=> ek markup style jo baad me convert ho jayegi html me.
+
+- static files setup steps: 
+
+1. Create a folder called public
+2. create three folders inside it, images,stylesheets,javascripts
+3. configure the express static in script.js file
+4. understand the path
+
+- Error Handling:
