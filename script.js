@@ -9,13 +9,13 @@ app.get('/', function (req, res) {
   res.render('index')
 });
 
-app.get('/contact', function (req, res) {
-    res.render('contact')
-  });
-
 app.get('/error', function(req,res, next) {
-    throw Error("Something went wrong");
+  res.render('err');
 });
+
+app.get('/contact', function (req, res) {
+    res.render('contact');
+  });
 
 app.use(function errorHandler (err, req, res, next) {
     if (res.headersSent) {
